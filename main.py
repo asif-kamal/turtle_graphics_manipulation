@@ -22,11 +22,50 @@ timmy_the_turtle.pencolor("green")
 #     timmy_the_turtle.forward(200)
 #     timmy_the_turtle.right(90)
 
-for _ in range(25):
-    timmy_the_turtle.pu()
-    timmy_the_turtle.forward(5)
-    timmy_the_turtle.pd()
-    timmy_the_turtle.forward(5)
+# for _ in range(25):
+#     timmy_the_turtle.pu()
+#     timmy_the_turtle.forward(5)
+#     timmy_the_turtle.pd()
+#     timmy_the_turtle.forward(5)
 
+#triangle
+for _ in range(3):
+    timmy_the_turtle.forward(100)
+    timmy_the_turtle.left(360/3)
+
+#square
+for _ in range(4):
+    timmy_the_turtle.forward(100)
+    timmy_the_turtle.left(360/4)
+
+#pentagon
+for _ in range(5):
+    timmy_the_turtle.forward(100)
+    timmy_the_turtle.left(360/5)
+
+#6-sided
+for _ in range(6):
+    timmy_the_turtle.forward(100)
+    timmy_the_turtle.left(360/6)
+
+#7-sided
+for _ in range(7):
+    timmy_the_turtle.forward(100)
+    timmy_the_turtle.left(360/7)
+
+#octagon
+for _ in range(8):
+    timmy_the_turtle.forward(100)
+    timmy_the_turtle.left(360/8)
+
+#nonagon
+for _ in range(9):
+    timmy_the_turtle.forward(100)
+    timmy_the_turtle.left(360/9)
+
+#decagon
+for _ in range(10):
+    timmy_the_turtle.forward(100)
+    timmy_the_turtle.left(360/10)
 
 t.exitonclick()

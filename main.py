@@ -78,15 +78,22 @@ def random_color():
     g = random.randint(0, 255)
     b = random.randint(0, 255)
     return (r, g, b)
-
-timmy_the_turtle.speed(4)
-timmy_the_turtle.pensize(10)
-timmy_the_turtle.pendown()
+#
+# timmy_the_turtle.speed(4)
+# timmy_the_turtle.pensize(10)
+# timmy_the_turtle.pendown()
 t.colormode(255)
+#
+# for _ in range(100):
+#     timmy_the_turtle.forward(50)
+#     timmy_the_turtle.left(random.choice([90, 180, 270]))
+#     timmy_the_turtle.color(random_color())
+
+t.speed("fastest")
 
 for _ in range(100):
-    timmy_the_turtle.forward(50)
-    timmy_the_turtle.left(random.choice([90, 180, 270]))
-    timmy_the_turtle.color(random_color())
+    t.color(random_color())
+    t.circle(100)
+    t.left(5)
 
 s.exitonclick()
